@@ -38,47 +38,11 @@
 ## Flurry Server Player Stats  ##
   * [![Live Server Player Stats ](https://img.shields.io/badge/Server%20LivePlayerStats-Click%20Here-005f71.svg?style=plastic)](http://www.swgflurry.com/stats/search.php) 
 
-## This Server Is A Branch From The MTGserver
-
-This server is specifically for new post 14.1 content and server modifications compatible with Core3. They have been created and submitted by the SWG community. The new content is available for any server to use with just one restriction: We ask that you give full credit to the creator for their work on your server's website and not claim it as your own work. Thank you.
-
-It's purpose is to add all of the NGE assets and anything released by the kind contributors to the MTG website.
-
-The core3 files are a stock version of the SWGEmu unstable branch. Scripts will be added for all new content. Please test, and if you find any problems, please post to this address. https://github.com/Thrax989/SWGFlurry/issues
-
 ## Required Server TRE Files
 www.swgflurry.com/TRE/
 
 ## Required Flurry Launcher
 http://www.swgflurry.com/Launcher/SWGFlurry_Launcher_0.0.3.7.exe
-
-## Build Server
-  * Open Terminal
-  * cd ~/workspace/Core3/MMOCoreORBD
-  * Make -j8
-
-## Start Server Normal
-  * Open Termianl
-  * cd ~/workspace/Core3/MMOCoreORBD/bin
-  * ./core3
-
-## Start Server Crash/Restart Script
-  * Open Terminal
-  * cd ~/workspace/Core3/MMOCoreORBD/bin
-  * ./startcore3.sh
-
-## Run Server in gdb debug mode
-  * Open Terminal 
-  * cd ~/workspace/Core3/MMOCoreORBD/bin
-  * gdb ./core3
-This will promt a Black Blank Screen. Type "r" to Run the GDB<br>
-If your server segfaults it will promt you "segmentation fault"<br>
-type "bt" to do a back trace to find your error<br>
-
-## Run Unit Integrity Test
-  * Open Terminal
-  * cd ~/workspace/Core3/MMOCoreORBD/bin
-  * swgemu runUnitTests
 
 ## Server Admin Commands
   * https://pastebin.com/mmfSbdKb
@@ -199,6 +163,7 @@ Thank you to the following server that provided custom content / alterations to 
   * Stardust
   * SWG-Europa
   * SWG-Rehab
+  * SWG Restoration 2 
   * Sunrunner II
   * Tarkins Revenge
 
